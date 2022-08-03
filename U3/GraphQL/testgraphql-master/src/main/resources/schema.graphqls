@@ -1,0 +1,21 @@
+type UserResp{
+    id: ID!,
+    userId: String,
+    firstName: String,
+    lastName: String,
+    email: String
+}
+
+input userDetail{
+    firstName: String,
+    lastName: String,
+    email: String
+}
+
+type Query{
+    user(userId: String): UserResp
+}
+
+type Mutation{
+    createUser(input: userDetail) : UserResp
+}

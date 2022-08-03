@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-RabbitmqConsumerApplication<rabbitmq-consumer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.rabbitmq.example.RabbitmqConsumerApplication",
+            "projectName": "rabbitmq-consumer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
